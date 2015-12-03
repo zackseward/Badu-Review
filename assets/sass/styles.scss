@@ -1,0 +1,56 @@
+
+$main-font-family: helvetica;
+$main-background-color: #AAF9E0;
+$main-font-size: 20px;
+
+
+body {
+  background-color: $main-background-color;
+  font-family: $main-font-family;
+  margin: auto;
+  width: 50%;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: $main-font-size * 3;
+}
+
+h2 {
+  font-size: $main-font-size * 1.5;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+img {
+  margin: 10px 0;
+  width: 100%;
+}
+
+li a {
+  font-variant: small-caps;
+  font-weight: bolder;
+  display: block;
+  float: left;
+  padding: 20px 60px;
+  font-size: $main-font-size;
+  background: #FBFCDA;
+  margin: 10px;
+
+  &:hover {
+    color: #E6513A;
+  }
+}
+
+@import 'mobile';
+
+
+// Hey, Jason, here's a comment: Hi.

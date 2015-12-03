@@ -1,0 +1,30 @@
+
+body {
+  background-color: #EAA5A1;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: #AAF9E0;
+  }
+
+}
+
+.hot {
+  background: #F6DF38;
+  border: 1px solid #E54C41;
+}
+
+
+@media screen and (min-width: 600px) {
+  .hot {
+    background: #E54C41;
+    border: 1px solid #F6DF38;
+  }
+
+}
+
+
+.hotter, .hottest {
+  @extend .hot;
+}
